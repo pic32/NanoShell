@@ -24,3 +24,5 @@ This shell has support for the following:
  - Configurable character echo support (optional)
  - File descriptions and help section (optional)
  - Directory descriptions (optional)
+
+![image](https://github.com/user-attachments/assets/46c456a8-3e30-4677-a58d-d891daed9471)
