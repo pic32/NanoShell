@@ -19,8 +19,8 @@ This shell has support for the following:
    *  pwd
    *  shutdown  (extended support available)
  - Command history (optional)
- - Home directory with ~ character
+ - Home directory with ~ character (optional)
  - Extended command functionality (optional)
  - Configurable character echo support (optional)
- - File descriptions and help section
- - Directory descriptions
+ - File descriptions and help section (optional)
+ - Directory descriptions (optional)
