@@ -196,12 +196,6 @@
 	#endif // end of #if (USE_CD_COMMAND != 1)
 #endif // end of #if (EXTENDED_CD_SUPPORT == 1)
 
-#if (EXTENDED_CLEAR_SUPPORT == 1)
-	#if (USE_CLEAR_COMMAND != 1)
-		#error "If EXTENDED_CLEAR_SUPPORT is defined as 1, USE_CLEAR_COMMAND must be defined as a 1!"
-	#endif // end of #if (USE_CLEAR_COMMAND != 1)
-#endif // end of #if (EXTENDED_CLEAR_SUPPORT == 1)
-
 #if (EXTENDED_ECHO_SUPPORT == 1)
 	#if (USE_HELP_COMMAND != 1)
 		#error "If EXTENDED_ECHO_SUPPORT is defined as 1, USE_HELP_COMMAND must be defined as a 1!"
@@ -214,23 +208,11 @@
 	#endif // end of #if (USE_HELP_COMMAND != 1)
 #endif // end of #if (EXTENDED_HELP_SUPPORT == 1)
 
-#if (EXTENDED_HEXDUMP_SUPPORT == 1)
-	#if (USE_HEXDUMP_COMMAND != 1)
-		#error "If EXTENDED_HEXDUMP_SUPPORT is defined as 1, USE_HEXDUMP_COMMAND must be defined as a 1!"
-	#endif // end of #if (USE_HEXDUMP_COMMAND != 1)
-#endif // end of #if (EXTENDED_HEXDUMP_SUPPORT == 1)
-
 #if (EXTENDED_LS_SUPPORT == 1)
 	#if (USE_LS_COMMAND != 1)
 		#error "If EXTENDED_LS_SUPPORT is defined as 1, USE_LS_COMMAND must be defined as a 1!"
 	#endif // end of #if (USE_LS_COMMAND != 1)
 #endif // end of #if (EXTENDED_LS_SUPPORT == 1)
-
-#if (EXTENDED_PWD_SUPPORT == 1)
-	#if (USE_PWD_COMMAND != 1)
-		#error "If EXTENDED_PWD_SUPPORT is defined as 1, USE_PWD_COMMAND must be defined as a 1!"
-	#endif // end of #if (USE_PWD_COMMAND != 1)
-#endif // end of #if (EXTENDED_PWD_SUPPORT == 1)
 
 #if (EXTENDED_SHUTDOWN_SUPPORT == 1)
 	#if (USE_SHUTDOWN_COMMAND != 1)
