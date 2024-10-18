@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\NanoShell">
+      <UniqueIdentifier>{05206742-0649-4042-8aeb-66f029bc141d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\NanoShell\Commands">
+      <UniqueIdentifier>{867d8a30-f9b0-402e-99d2-bc4eeb1e5c2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GenericBuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\cat_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\cd_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\clear_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\echo_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\help_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\ls_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\pwd_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\Commands\shutdown_Command.c">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\NanoDirectory.c">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\NanoFile.c">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClCompile>
+    <ClCompile Include="NanoShell\NanoShell.c">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenericBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericBufferConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericBufferObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericTypeDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\cat_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\cd_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\clear_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\echo_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\help_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\ls_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\pwd_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\Commands\shutdown_Command.h">
+      <Filter>Resource Files\NanoShell\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoDirectory.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoFile.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoShell.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoShellConfig.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoShellObjects.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+    <ClInclude Include="NanoShell\NanoShellReturnTypes.h">
+      <Filter>Resource Files\NanoShell</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
