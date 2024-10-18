@@ -25,4 +25,5 @@ This shell has support for the following:
  - File descriptions and help section (optional)
  - Directory descriptions (optional)
 
-![image](https://github.com/user-attachments/assets/46c456a8-3e30-4677-a58d-d891daed9471)
+![image](https://github.com/user-attachments/assets/40ef8b06-be79-48dd-a2d2-cf275162efaf)
+
